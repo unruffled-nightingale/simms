@@ -1,0 +1,15 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+html{
+  overflow: hidden;
+}
+html, body, #app {
+  height: 100vh;
+  width: 100vw;
+  cursor: crosshair;
+}
+::-webkit-scrollbar {
+  display: none;
+}

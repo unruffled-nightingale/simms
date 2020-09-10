@@ -1,0 +1,14 @@
+.right-side{
+    position:fixed;
+    width: 5vw;
+    height: 100vh;
+    right: 0;
+    top: 0;
+}
+.left-side {
+    position: fixed;
+    width: 5vw;
+    height: 100vh;
+    left: 0;
+    top: 0;
+}
