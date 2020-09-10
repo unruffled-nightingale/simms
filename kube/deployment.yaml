@@ -1,0 +1,23 @@
+apiVersion: apps/v1 # for versions before 1.6.0 use extensions/v1beta1
+kind: Deployment
+metadata:
+  name: simms
+  namespace: default
+  labels:
+    app: simms
+spec:
+  replicas: 1
+  selector:
+    matchLabels:
+      app: simms
+  template:
+    metadata:
+      labels:
+        app: simms
+    spec:
+      containers:
+        - name: simms
+          image: unrufflednightingale/simms:latest
+          imagePullPolicy: Always
+          ports:
+            - containerPort: 80

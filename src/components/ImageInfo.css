@@ -1,0 +1,52 @@
+.box{
+    position: fixed;
+    width: 50vw;
+    height: 40vh;
+    top: 25%;
+    left: 25%;
+    background-color: #01FF89;
+    padding: 40px;
+}
+.box-upper{
+    position: fixed;
+    width: 50vw;
+    height: 40vh;
+    top: 25%;
+    left: 25%;
+    margin: 40px;
+}
+.little-box{
+    position: absolute;
+    width: 45%;
+    height: 100%;
+    background-color: white;
+}
+.info-box{
+    position: absolute;
+    width: 50%;
+    height: 80%;
+    left: 50%;
+    color: white;
+    font-size: 2em;
+}
+.info-box{
+    position: absolute;
+    width: 50%;
+    height: 80%;
+    left: 50%;
+    color: white;
+    font-size: 2em;
+}
+.close-button{
+    color: white;
+    position: absolute;
+    right:0;
+    top:0;
+}
+.info-title{
+    font-size: 2.5em;
+    padding-bottom: 30px;
+}
+.info-desc{
+    font-size: 0.8em;
+}

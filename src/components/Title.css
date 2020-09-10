@@ -1,0 +1,27 @@
+.title {
+  text-align: center;
+  font-family: "Courier New", serif;
+  padding: 5px;
+  font-size: 1em;
+}
+.subtitle{
+  text-align: center;
+  font-family: "Courier New", serif;
+  font-size: 0.8em;
+  padding: 5px;
+}
+.title-screen{
+  height: 100%;
+  width: 100%;
+  position: relative;
+}
+.title-screen-center{
+  position: absolute;
+  top: 30%; bottom: 0; left: 0; right: 0;
+}
+.title-audio{
+  cursor: pointer;
+  text-align: center;
+  padding: 20px;
+}
+

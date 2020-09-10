@@ -1,0 +1,10 @@
+
+.audio-icon{
+  position: fixed;
+  width: 1.4vw;
+  top: 2%;
+  left: 1%;
+}
+.paused{
+  opacity: 40%;
+}
